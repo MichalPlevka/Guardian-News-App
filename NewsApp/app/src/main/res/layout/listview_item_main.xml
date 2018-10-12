@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listItemLayoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <include android:id="@+id/includeListViewItemMaster" layout="@layout/listview_item_master" android:visibility="visible"/>
+    <include android:id="@+id/includeListViewItemDetail" layout="@layout/listview_item_detail" android:visibility="gone"/>
+
+
+</RelativeLayout>

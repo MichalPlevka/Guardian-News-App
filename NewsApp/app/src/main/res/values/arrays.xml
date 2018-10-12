@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="order_by_preference_array_keys">
+        <item>@string/order_by_oldest_key</item>
+        <item>@string/order_by_newest_key</item>
+        <item>@string/order_by_relevance_key</item>
+    </array>
+
+    <array name="order_by_preference_array_values">
+        <item>@string/order_by_oldest_value</item>
+        <item>@string/order_by_newest_value</item>
+        <item>@string/order_by_relevance_value</item>
+    </array>
+</resources>

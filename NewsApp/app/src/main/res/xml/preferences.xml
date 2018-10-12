@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="search_edit_text_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Search" />
+
+    <EditTextPreference
+        android:key="tags_edit_text_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Tag" />
+
+    <EditTextPreference
+        android:key="sections_edit_text_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Section" />
+
+</PreferenceScreen>

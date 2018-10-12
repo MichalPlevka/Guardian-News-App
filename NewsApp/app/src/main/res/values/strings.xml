@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Guardian News</string>
+
+    <string name="title_activity_settings">Search Criteria</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- order_by_preference_array keys and values -->
+    <string name="order_by_oldest_key">oldest</string>
+    <string name="order_by_oldest_value">Oldest</string>
+
+    <string name="order_by_newest_key">newest</string>
+    <string name="order_by_newest_value">Newest</string>
+
+    <string name="order_by_relevance_key">relevance</string>
+    <string name="order_by_relevance_value">Relevance</string>
+
+    <!-- key names for preferences -->
+    <string name="search_edit_text_preference">search_edit_text_preference</string>
+    <string name="order_by_list_preference">order_by_list_preference</string>
+
+    <!-- radio button strings -->
+    <string name="order_by_default">Default</string>
+    <string name="order_by_oldest">Oldest</string>
+    <string name="order_by_newest">Newest</string>
+    <string name="order_by_relevance">Relevance</string>
+
+    <string name="toArticleButton">To article</string>
+
+</resources>

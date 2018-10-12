@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- height dimensions for listview items -->
+    <dimen name="listviewItemHeightContracted">100dp</dimen>
+    <dimen name="listviewItemHeightExpanded">150dp</dimen>
+</resources>

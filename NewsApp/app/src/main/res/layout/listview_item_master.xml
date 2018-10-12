@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listItemLayoutMaster"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/listviewItemHeightContracted"
+    android:background="@color/colorListItemEven"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/listItemImageMaster"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_weight="1"
+        android:src="@drawable/baseline_expand_more_black_36"
+        android:layout_centerVertical="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/listItemImageMaster"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/articleNameMaster"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:gravity="start|center"
+            android:layout_weight="1"
+            android:textColor="@color/listItemTextColor"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-thin"
+            android:text="News"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:layout_marginStart="20dp"
+            android:minWidth="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sectionNameMaster"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|right"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:textColor="@color/listItemTextColor"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Section name"/>
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:text="Date"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
